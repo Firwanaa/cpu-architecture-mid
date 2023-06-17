@@ -50,8 +50,14 @@ In Intel processors knows as Flag Registers
 	- ZF: zero flag
 	- SF: sign flag
 	- OF: overflow flag
+
 In ARM known as Program Status Registers **PSR**:
 	- N: Negative
 	- Z: Zero
 	- C: Carry
 	- V: Overflow
+
+### 4- Provide register names for storing the top of the Stack in Intel/ARM processors:
+In Intel and ARM is called: **Stack Pointer SP**
+
+### 5- Describe the general differences between CISC and RISC computers
