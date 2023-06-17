@@ -20,10 +20,10 @@ The majority of computers like PC, laptops and mobile phones are based on Von Ne
 
 ### 5- Provide the actions that a Von Newmann computer emulate.
 
-- instruction fetch: obtain instructions from storage
-- instruction decode: determine required actions and instruction size.
-- operand fetch: locate and obtain operand data.
-- execute: compute results 
-- result store: deposit result into storage for later use
-- next instruction: determine successor instruction
+- **instruction fetch**: obtain instructions from storage
+- ***instruction decode**: determine required actions and instruction size.
+- **operand fetch**: locate and obtain operand data.
+- **execute**: compute results 
+- **result store**: deposit result into storage for later use
+- **next instruction**: determine successor instruction
 
