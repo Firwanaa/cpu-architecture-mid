@@ -3,11 +3,6 @@
 
 Most computers use the stored program concept designed by mathematician John Von Neumann, which is a theoretical design describes the basic structure and functional units of a computer system. computers has five parts, an arithmetic-logic unit(ALU), control unit (CU), memory, input/output and system bus. 
 
-Additions
-- #### Types of Bus:
-	- data bus -> read and write *usually used to classify microprocessors i.e, 16-bit microprocessors.*
-	- address bus -> transmit registers addresses
-	- control bus -> control the functions of other buses.
 
 ### 2- When was the Von Neumann architecture invented?
 1946
@@ -82,4 +77,62 @@ Intel (intel 8086) and IBM mainframes
 ### 7- Provide the names of the computer implemented the RISC architecture...
 RISC: SPARC (Scalar Processor Architecture) which was evolved form the MIPS (Microprocessor without Interlock Pipeline stages)
 
+### 8- How many bits in a byte?
+1 Byte = 8 bits
+word = 32 bits (4 bytes) <- depends on the Architecture
+
+### 9- How many sub buses are there in the bus system of our processor?
+
+- #### Types of Bus:
+	- data bus -> read and write *usually used to classify microprocessors i.e, 16-bit microprocessors.*
+	- address bus -> transmit registers addresses
+	- control bus -> control the functions of other buses.
+ 
+### 10- How many instructions in EMU8086?
+116 instructions (not sure if it's 116 or 117)
+
+### 11-What is a combinational logic?
+
+### 12- List the characteristics of a RISC computer.
+- smaller number of instructions: about 50
+- simple instructions that execute in one cycle each (opposed to CISC need to be broken into micro code which require more cycles)
+- RISC instructions are not interpreted
+- Power efficiency 
+
+### 13- Provide the data range ( max – min) of a 2-byte variable, 4 byte variable.
+##### 2- byte
+- signed: -32,768 to 32,767
+- unsigned: 0 to 65,535
+
+##### 4- byte
+- signed: -2,147,483,648 to 2,147,483,647
+- unsigned: 0 to 65,535
+
+```
+it can be done without memorization:
+- unsigned 2-byte:
+1 byte = 8 bits
+2 bytes = 16 bits
+2^16 = 65,536
+starting from 0, therefore range: 0 - 65,535
+- unsigned 4-byte:
+4 bytes = 32 bits
+2^32 = 4,294,967,295
+starting from 0, therefore range: 0 - 4,294,967,294
+
+- signed 2-byte:
+- 2 bytes = 16 bits
+- 1 bit reserved for sign: we left with 15 bits
+- range is (-2^15 to 2^15 - 1) = -32,768 to 32,767
+
+- signed 4-byte:
+- 4 bytes = 32 bits
+- 1 bit reserved for sign: we left with 31 bits
+- range is (-2^31 to 2^31 - 1) = -2,147,483,648 to 2,147,483,647
+
+** notes:
+only need to know number of bits
+signed: 2^(# of bits) and then subtract 1 since we start from 0
+unsigned: 1 bit is for the sign (+-), -2^(# of bits) to 2^(# of bits) - 1
+```
 
