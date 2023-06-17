@@ -28,4 +28,4 @@ The majority of computers like PC, laptops and mobile phones are based on Von Ne
 - **result store**: deposit result into storage for later use
 - **next instruction**: determine successor instruction
 
-# Week 2: ads
+# Week 2:
