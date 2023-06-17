@@ -166,3 +166,14 @@ Memory Addr.: value in this memory cell:
 
 - Big-Endian:    A1 B2 C3 D4 (A1 is stored in the MSB)
 - Little-Endian: D4 C3 B2 A1 (A1 is stored in the LSB)
+
+### 16- A compiler designer is trying to decide between two code sequences for a particular machine. The hardware designers have supplied the following facts: For a particular high-level language, the compiler writer is considering two sequences that require the following instruction counts: What is the CPI for each sequence? Which code sequence is faster ?
+![[Pasted image 20230617143733.png]] 
+
+$CPIa = \dfrac{6\times2 + 7\times 5 + 5\times 6}{6+7+5} =4.2$
+
+
+$CPIb = \dfrac{3\times2 + 8\times 5 + 2\times 6}{6+7+5}=4.4$
+
+> CPIb is faster
+
