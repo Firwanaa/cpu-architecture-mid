@@ -143,3 +143,23 @@ Memory Addr.: value in this memory cell:
 60013 2C
 60014 7F
 60015 39
+
+
+### 15- What is the value represented by “Big-Endian” format and what is the value represented by “Little-Endian” format when a CPU reads the word?
+
+- Big-Endian: 
+
+| 60012 | 60013 | 60014 | 60015 |
+|-------|-------|-------|-------|
+| 18    | 2C    | 7F    | 39    |
+
+
+- Little-Endian:
+
+| 60012 | 60013 | 60014 | 60015 |
+|-------|-------|-------|-------|
+| 39    | 7F    | 2C    | 18   |
+
+
+
+
