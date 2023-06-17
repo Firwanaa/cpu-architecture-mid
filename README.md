@@ -1,3 +1,4 @@
+# Week 1
 ### 1- What is the von Neumann Model/architecture?
 
 Most computers use the stored program concept designed by mathematician John Von Neumann, which is a theoretical design describes the basic structure and functional units of a computer system. computers has five parts, an arithmetic-logic unit(ALU), control unit (CU), memory, input/output and system bus. 
@@ -21,9 +22,10 @@ The majority of computers like PC, laptops and mobile phones are based on Von Ne
 ### 5- Provide the actions that a Von Newmann computer emulate.
 
 - **instruction fetch**: obtain instructions from storage
-- *instruction decode**: determine required actions and instruction size.
+- **instruction decode**: determine required actions and instruction size.
 - **operand fetch**: locate and obtain operand data.
 - **execute**: compute results 
 - **result store**: deposit result into storage for later use
 - **next instruction**: determine successor instruction
 
+# Week 2:
