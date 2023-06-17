@@ -44,4 +44,14 @@ The majority of computers like PC, laptops and mobile phones are based on Von Ne
 In intel processor it's called **Instruction Pointer IP**.
 In ARM processor it's called **Program Counter PC**.
 
-
+### 3- Provide register names for storing Processor states in Intel/ARM processors?
+In Intel processors knows as Flag Registers
+	- CF: carry flag
+	- ZF: zero flag
+	- SF: sign flag
+	- OF: overflow flag
+In ARM known as Program Status Registers **PSR**:
+	- N: Negative
+	- Z: Zero
+	- C: Carry
+	- V: Overflow
