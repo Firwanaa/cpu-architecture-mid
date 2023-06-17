@@ -29,3 +29,19 @@ The majority of computers like PC, laptops and mobile phones are based on Von Ne
 - **next instruction**: determine successor instruction
 
 # Week 2:
+### 1- Provide the main components of a CPU.
+- **ALU**: Arithmetic logical unit: performs arithmetic and logical operations. 
+- **IR**: Instruction Register: used to store the copy of currently used instruction
+- **PC**: Program counter: contains the address of instruction currently used.
+- **SP**: Stack pointer: contains address of the 'top' the stack
+- **PS**: Processor status register: contains condition code which allow conditional jump
+- **MAR**:Memory Address Register: contains the address of the memory location (RAM) to read/write
+- **MBR***: Memory Buffer Register: contains data to be read/write form/to a memory location. 
+- **DR**: Data Registers: storage places inside CPU where access is much faster than accessing RAM
+- **XR**: Index Register: Used with high-level programming languages that use arrays.
+
+### 2- Provide register names for Program counter in Intel/ARM processors.
+In intel processor it's called **Instruction Pointer IP**.
+In ARM processor it's called **Program Counter PC**.
+
+
