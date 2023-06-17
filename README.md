@@ -184,5 +184,11 @@ $MAT=0.1+(1-0.89)\times 0.98 =0.2078$
 
 # Week 3
 
+### 1- Convert 169 (base 10) to
+1. base 2 notation  = 10101001
+2. base 8 notation  = 251
+3. base 16 notation = A9
+4. 
+
 
 
