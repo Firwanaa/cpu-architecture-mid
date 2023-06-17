@@ -80,6 +80,6 @@ In Intel and ARM is called: **Stack Pointer SP**
 Intel (intel 8086) and IBM mainframes
 
 ### 7- Provide the names of the computer implemented the RISC architecture...
-RISC: SPARC (Scalar Processor Architechture) which was evolved form the MIPS (Microprocessor without Interlock Pipeline stages)
+RISC: SPARC (Scalar Processor Architecture) which was evolved form the MIPS (Microprocessor without Interlock Pipeline stages)
 
 
