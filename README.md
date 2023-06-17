@@ -162,4 +162,7 @@ Memory Addr.: value in this memory cell:
 
 
 
+### 16- An integer data in the cpu is: A1 B2 C3 D4, We want to store the data on memory, how is this data stored in memory when using Little-Endian? how is this data stored when using Big-Endian?
 
+- Big-Endian:    A1 B2 C3 D4 (A1 is stored in the MSB)
+- Little-Endian: D4 C3 B2 A1 (A1 is stored in the LSB)
