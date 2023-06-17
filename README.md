@@ -31,7 +31,7 @@ The majority of computers like PC, laptops and mobile phones are based on Von Ne
 - **SP**: Stack pointer: contains address of the 'top' the stack
 - **PS**: Processor status register: contains condition code which allow conditional jump
 - **MAR**:Memory Address Register: contains the address of the memory location (RAM) to read/write
-- **MBR***: Memory Buffer Register: contains data to be read/write form/to a memory location. 
+- **MBR**: Memory Buffer Register: contains data to be read/write form/to a memory location. 
 - **DR**: Data Registers: storage places inside CPU where access is much faster than accessing RAM
 - **XR**: Index Register: Used with high-level programming languages that use arrays.
 
@@ -41,16 +41,16 @@ In ARM processor it's called **Program Counter PC**.
 
 ### 3- Provide register names for storing Processor states in Intel/ARM processors?
 In Intel processors knows as Flag Registers:</br>
-	- CF: carry flag
-	- ZF: zero flag
-	- SF: sign flag
-	- OF: overflow flag
+	- CF: carry flag</br>
+	- ZF: zero flag</br>
+	- SF: sign flag</br>
+	- OF: overflow flag</br>
 
 In ARM known as Program Status Registers **PSR**: </br>
-	- N: Negative
-	- Z: Zero
-	- C: Carry
-	- V: Overflow
+	- N: Negative</br>
+	- Z: Zero</br>
+	- C: Carry</br>
+	- V: Overflow</br>
 
 ### 4- Provide register names for storing the top of the Stack in Intel/ARM processors:
 In Intel and ARM is called: **Stack Pointer SP**
@@ -202,7 +202,7 @@ Signed Integers
  ------</br>
  1010 = (-6) Overflow, no carry, incorrect  
 
-- Carry
+- Carry</br> (-4) + (-2) </br>
 	1100</br>
 	1110</br>
 	----</br>
