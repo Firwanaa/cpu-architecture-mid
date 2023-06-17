@@ -45,7 +45,7 @@ In intel processor it's called **Instruction Pointer IP**.
 In ARM processor it's called **Program Counter PC**.
 
 ### 3- Provide register names for storing Processor states in Intel/ARM processors?
-In Intel processors knows as Flag Registers
+In Intel processors knows as Flag Registers:
 	- CF: carry flag
 	- ZF: zero flag
 	- SF: sign flag
@@ -61,3 +61,23 @@ In ARM known as Program Status Registers **PSR**:
 In Intel and ARM is called: **Stack Pointer SP**
 
 ### 5- Describe the general differences between CISC and RISC computers
+- CISC (complex instruction set computer), larger number of instructions, usually 200-300, each CISC instruction can be broken down into smaller cycles to complete.
+- RISC (reduced instruction set computer): smaller number (around 50) of simple instructions that execute in one cycle each. 
+
+|   |   |   |
+|---|---|---|
+||CISC|RISC|
+|Instruction Set <br><br>(# of instructions)|200-300|Less than CISC About 50|
+|CPI|broken down to a<br><br>number of microinstructions<br><br>Require one or more|fewer cycles 1|
+|Is the Length of instruction is fixed?<br><br>(# of byte / instruction)|16 bit|vary|
+|Register set<br><br> (# of registers)|14 registers (emu8086)|32 or more|
+|Memory access instructions<br><br> (# of instruction for memory access)|Load and store<br><br>memory-to-memory|Load and store <br><br>memory -to- register<br><br>register-to-memory|
+|Suitable for parallel processing|Less suitable due to more complex instructions|Yes, by using pipelining|
+|Are Micro Instructions required|Yes (more complex)|No (simpler)|
+
+
+### 6- Provide the names of the computer implemented the CISC architecture...
+Intel (intel 8086) and IBM mainframes
+
+Addition:
+RISC: SPARC (Scalar Processor Architechture)
