@@ -175,13 +175,14 @@ $CPIa = \dfrac{6\times2 + 7\times 5 + 5\times 6}{6+7+5} =4.2$
 
 $CPIb = \dfrac{3\times2 + 8\times 5 + 2\times 6}{6+7+5}=4.4$
 
-CPIb is faster
+CPIa is faster
 
 ### 17- Mean access time = c + (1 – h) * m for adding cache memory: M = 0.98ms c = 0.1ms h = 0.89 what will be the MAT? (Note: MAT= c + (1-h) * m)
 
 $MAT=C+(1-h)\times m$
 $MAT=0.1+(1-0.89)\times 0.98 =0.2078$
 
+# Week 3
 
 
 
