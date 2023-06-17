@@ -188,7 +188,28 @@ $MAT=0.1+(1-0.89)\times 0.98 =0.2078$
 1. base 2 notation  = 10101001
 2. base 8 notation  = 251
 3. base 16 notation = A9
-4. 
+
+### 2- Fraction number base conversions:
+1. Convert 3.14 to its base 2 notation  = 11.0010001111
+2. convert 0.628 to its base 2 notation = 0.1010000011
+3. overflow/carry example as we did in class 
+- Overflow
+Signed Integers
+(+4) + (+6)
+
+  0100 
+ +0110
+ ------
+ 1010 = (-6) Overflow, no carry, incorrect  
+
+- Carry
+	1100
+	1110
+	----
+	11010
+No overflow, carry, correct
+
+
 
 
 
