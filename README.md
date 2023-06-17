@@ -79,5 +79,7 @@ In Intel and ARM is called: **Stack Pointer SP**
 ### 6- Provide the names of the computer implemented the CISC architecture...
 Intel (intel 8086) and IBM mainframes
 
-Addition:
-RISC: SPARC (Scalar Processor Architechture)
+### 7- Provide the names of the computer implemented the RISC architecture...
+RISC: SPARC (Scalar Processor Architechture) which was evolved form the MIPS (Microprocessor without Interlock Pipeline stages)
+
+
