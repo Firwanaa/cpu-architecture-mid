@@ -209,7 +209,18 @@ Signed Integers
 	11010</br>
 No overflow, carry, correct
 
+### 3- 3. Provide the binary representation of -113 using 2’s complement notation in 8-bit notation 
+113 = 01110001
+2's complement: 10001111
 
+### Find out if overflow or carry occurs in the following signed number computations using Emu8086:
+- Depends if we use 8-bit register (AL) or 16-bit registers (AX)
+- using 16-bit AX
+127 + 3     -> No Carry, No Overflow
+127 + (-3)  -> Carry, No Overflow
+64+5        -> No Carry, No Overflow
+(-124) +(-3)-> Carry, No Overflow
+(-64) + (-6)-> Carry, No Overflow
 
 
 
