@@ -335,6 +335,7 @@ Explicit normalization: radix point to RHS of MSB -> 1.01101 * 2^2
 * Result: `0 10000111 00111010101000000000000`
 
 ### 6- understand what is overflow/underflow, and label them on the diagram below:
+
 ![[Pasted image 20230618092025.png]]
 
 `overflow          underflow    overflow`
