@@ -217,10 +217,13 @@ No overflow, carry, correct
 ###### Depends if we use 8-bit register (AL) or 16-bit registers (AX)
 ###### using 16-bit AX
 - 127 + 3     -> No Carry, No Overflow
+
 - 127 + (-3)  -> Carry, No Overflow
 - 64+5        -> No Carry, No Overflow
 - (-124) +(-3)-> Carry, No Overflow
 - (-64) + (-6)-> Carry, No Overflow
+- 
+*note: week3 slide 39 Excess-127 doesn't look right*
 
 ### 4- Provide the scientific notation in Exess-50 notation as: SEEMMMMM Make sure apply normalization algorithm to maximize the precision.
 1. 146.52437
@@ -228,11 +231,29 @@ No overflow, carry, correct
 3. 0.001469823
 
 ##### 146.52437
-- Step 1: Normalise the number by moving the decimal point to the RHS of the first digit `1.4652437` (need to double check implicit or explicit)
+- Step 1: Normalise the number by moving the decimal point to the RHS of the first digit `0.14652437 * 10^3` (explicit)
 - Step 2: Determine the sign: positive `1`
-- Step 3: Calculate the Exponent (E) by counting the places the decimal point moved to the right, E will be negative. If moved to the left E will be positive:  `moved to the left two places 10^2 E is 2`
-- Step 4: Apply Excess-50 bias, `E + 50 = 2 + 50 = 52`
-- Result: (see u tmr ^^ )
+- Step 3: Calculate the Exponent (E) by counting the places the decimal point moved to the right, E will be negative. If moved to the left E will be positive:  `moved to the left two places 10^3 E is 3`
+- Step 4: Apply Excess-50 bias, `E + 50 = 3 + 50 = 53`
+- Result: `05314652` 
+- (0 is “+”, 53 is excess-50 exponent value “3”, magnitude
+of mantissa is 14652)
 
 
+##### 14.67
+- Step 1: `0.1467 * 10^2`
+- Step 2: `Positive: 1`
+- Step 3: `E is 2`
+- Step 4: `E + 50 = 2 + 50 =52`
+- Result: `05214670`
+- (0 is “+”, 52 is excess-50 exponent value “2”, magnitude
+of mantissa is 14670)
 
+##### 0.001469823
+- Step 1: `0.1469823 * 10^-2` moving right
+- Step 2: `Positive: 1`
+- Step 3: `E is -2`
+- Step 4: `E + 50 = -2 + 50 =48`
+- Result: `04814698`
+- (0 is “+”, 48 is excess-50 exponent value “-2”, magnitude
+of mantissa is 14698)
