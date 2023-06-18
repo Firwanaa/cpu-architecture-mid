@@ -362,3 +362,14 @@ Explicit normalization: radix point to RHS of MSB -> 1.01101 * 2^2
 
 ### 2- Draw a 2-bit Full-Adder using AND, XOR, and OR logic gates
 ![](2-bit-full-adder.png)
+
+### 1-bit full adder
+![](1-bit-full-adder.png)
+
+### 3- Draw a 2-bit Shifter using AND, OR, and NOT logic gates
+#### 2-bit shifter
+![](2-bit-shifter.png)
+
+
+#### 1-bit shifter
+![](1-bit-shifter.png)
