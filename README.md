@@ -348,7 +348,6 @@ Explicit normalization: radix point to RHS of MSB -> 1.01101 * 2^2
 - Control bit is : `0`
 - Shift to the: `left`
 - Output: `11010100`
-
 ![[Pasted image 20230618125634.png]]
 
 #### In the previous example what would the OUTPUT BITS be if the INPUT BITS are: 0 0 1 1 0 1 0 1 and the control bit is 1?
@@ -360,7 +359,6 @@ Explicit normalization: radix point to RHS of MSB -> 1.01101 * 2^2
 - Control bit is: `1`
 - Shift to the: `rigt`
 - Output: `00110101`
-
 ![[Pasted image 20230618125721.png]]
 
 #### In the previous example what would the OUTPUT BITS be if the INPUT BITS are: 0 0 1 1 0 1 0 1 and the control bit is 0?
