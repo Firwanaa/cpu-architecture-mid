@@ -168,8 +168,7 @@ Memory Addr.: value in this memory cell:
 - Little-Endian: D4 C3 B2 A1 (A1 is stored in the LSB)
 
 ### 16- A compiler designer is trying to decide between two code sequences for a particular machine. The hardware designers have supplied the following facts: For a particular high-level language, the compiler writer is considering two sequences that require the following instruction counts: What is the CPI for each sequence? Which code sequence is faster ?
-![[Pasted image 20230617143733.png]] 
-
+![](0.png)
 $CPIa = \dfrac{6\times2 + 7\times 5 + 5\times 6}{6+7+5} =4.2$
 
 
@@ -336,8 +335,7 @@ Explicit normalization: radix point to RHS of MSB -> 1.01101 * 2^2
 
 ### 6- understand what is overflow/underflow, and label them on the diagram below:
 
-![[1.png]]
-
+![](1.png)
 `overflow          underflow    overflow`
 
 # Week 4
@@ -348,8 +346,7 @@ Explicit normalization: radix point to RHS of MSB -> 1.01101 * 2^2
 - Control bit is : `0`
 - Shift to the: `left`
 - Output: `11010100`
-![[2.png]]
-
+![](2.png)
 #### In the previous example what would the OUTPUT BITS be if the INPUT BITS are: 0 0 1 1 0 1 0 1 and the control bit is 1?
 - Answer: `00011010` <- will shift to the right
 
@@ -359,7 +356,6 @@ Explicit normalization: radix point to RHS of MSB -> 1.01101 * 2^2
 - Control bit is: `1`
 - Shift to the: `rigt`
 - Output: `00110101`
-![[3.png]]
-
+![](3.png)
 #### In the previous example what would the OUTPUT BITS be if the INPUT BITS are: 0 0 1 1 0 1 0 1 and the control bit is 0?
 - Answer: `01101010` <- will shift to the left
