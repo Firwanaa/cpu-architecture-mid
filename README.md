@@ -373,3 +373,11 @@ Explicit normalization: radix point to RHS of MSB -> 1.01101 * 2^2
 
 #### 1-bit shifter
 ![](1-bit-shifter.png)
+
+### 4- Draw an 8 bit adder from two four bit adders.
+
+![](8-bit-block.jpeg)
+
+### 5- Something about AND and OR circuts but no questions 
+
+# Week 5
