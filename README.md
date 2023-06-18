@@ -339,3 +339,27 @@ Explicit normalization: radix point to RHS of MSB -> 1.01101 * 2^2
 ![[Pasted image 20230618092025.png]]
 
 `overflow          underflow    overflow`
+
+# Week 4
+
+### 1- Shifter Exercise: In the below example the control C was ?
+### and the shifter shifted the bits to the?
+### What is the control bit to shift in the other direction?
+- Control bit is : `0`
+- Shift to the: `left`
+- Output: `11010100`
+![[Pasted image 20230618125634.png]]
+
+#### In the previous example what would the OUTPUT BITS be if the INPUT BITS are: 0 0 1 1 0 1 0 1 and the control bit is 1?
+- Answer: `00011010` <- will shift to the right
+
+### Shifter Exercise: In the below example the control C was ?
+### and the shifter shifted the bits to the ?
+### What is the control bit to shift in the other direction?
+- Control bit is: `1`
+- Shift to the: `rigt`
+- Output: `00110101`
+![[Pasted image 20230618125721.png]]
+
+#### In the previous example what would the OUTPUT BITS be if the INPUT BITS are: 0 0 1 1 0 1 0 1 and the control bit is 0?
+- Answer: `01101010` <- will shift to the left
