@@ -222,5 +222,17 @@ No overflow, carry, correct
 - (-124) +(-3)-> Carry, No Overflow
 - (-64) + (-6)-> Carry, No Overflow
 
+### 4- Provide the scientific notation in Exess-50 notation as: SEEMMMMM Make sure apply normalization algorithm to maximize the precision.
+1. 146.52437
+2. 14.67
+3. 0.001469823
+
+##### 146.52437
+- Step 1: Normalise the number by moving the decimal point to the RHS of the first digit `1.4652437` (need to double check implicit or explicit)
+- Step 2: Determine the sign: positive `1`
+- Step 3: Calculate the Exponent (E) by counting the places the decimal point moved to the right, E will be negative. If moved to the left E will be positive:  `moved to the left two places 10^2 E is 2`
+- Step 4: Apply Excess-50 bias, `E + 50 = 2 + 50 = 52`
+- Result: (see u tmr ^^ )
+
 
 
