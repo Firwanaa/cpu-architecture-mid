@@ -378,6 +378,16 @@ Explicit normalization: radix point to RHS of MSB -> 1.01101 * 2^2
 
 ![](8-bit-block.jpeg)
 
-### 5- Something about AND and OR circuts but no questions 
+### 5- Something about AND and OR circuits but no questions 
 
 # Week 5
+### 1- Provide the unsigned integer addition of 78 and 69 in 8- bit binary format
+- #### How many carry out happened in the calculation and on which bits the carry out happened
+
+![](week5-1.jpg)
+- #### How many carry in happened in the calculation and on which bit the carry in happened
+- Answered above
+
+### 2- Provide the sign integer subtraction of 78 and 69 in 8-bit binary format
+
+![](week-5-2.jpg)
