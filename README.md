@@ -223,7 +223,7 @@ No overflow, carry, correct
 - (-124) +(-3)-> Carry, No Overflow
 - (-64) + (-6)-> Carry, No Overflow
 - 
-*note: week3 slide 39 Excess-127 doesn't look right*
+*note🤒: week3 slide 39 Excess-127 doesn't look right*
 
 ### 4- Provide the scientific notation in Exess-50 notation as: SEEMMMMM Make sure apply normalization algorithm to maximize the precision.
 1. 146.52437
@@ -257,3 +257,79 @@ of mantissa is 14670)
 - Result: `04814698`
 - (0 is “+”, 48 is excess-50 exponent value “-2”, magnitude
 of mantissa is 14698)
+
+#### Extra🤓:Represent 0.254 x 10^3 in a normalized base 8 floating point format
+- Step 1:convert to base 8, `.254 * 10^3 = 254`
+	- `254 / 8 = 31 R 6`
+	- `31 / 8 = 3 R 7`
+	- `3 /8 = 0 R 3`
+	- base 8: 376
+- Step 2: `positive: 1`
+	- Normalise:`.376 * 8^3` <- base 8
+- Step 3: `E is 3, E + 4 = 3 + 4 = 7` <- Excess-4
+- Result: `073760` <- not sure why 4 digits MMMM not 5 MMMMM
+- Binary representation: `0 111 011 111 110 000` <- each octet 3-bits 
+scientific 
+```
+🤕
+Class notes do not mention which normalization type is used:
+example: 101.101
+Implicit normalization: radix point to LHS of MSB -> 0.101101 * 2^3
+Explicit normalization: radix point to RHS of MSB -> 1.01101 * 2^2
+
+- With Scientific Notation Excess-50, explicit normatilztion is used.
+- With IEEE-745, implicit normatization is used. 
+- 🤕
+```
+
+### 5- a)Convert 6.28 to IEEE 754 single precision format
+- convert 6 to bin: `0110`
+- convert .28 to bin:
+```
+.28 * 2 = .56  | 0
+.56 * 2 = 1.12 | 1
+.12 * 2 = .24  | 0
+.24 * 2 = .48  | 0
+.48 * 2 = .96  | 0
+.96 * 2 = 1.91 | 1
+.92 * 2 = 1.84 | 1
+.84 * 2 = 1.68 | 1 <- i stopped here
+.
+.
+.
+01000111
+```
+`
+- `0110.01000111 * 2^0`
+- Shift to left: `1.1001000111 * 2^2 
+- Discard leading 1: `.1001000111* 2^2 
+- Sign bit: `1`
+- Exponent: `E is 1`
+- Offset the Exponent: `2 + 127 = 129 = 10000001` 
+- Result: `0 10000001 10010001110000000000000`
+
+### b) Convert 314.628 to IEEE 754 single precision format
+- convert 314 to bin: `100111010`
+- convert .628 to bin: 
+```
+.628 x 2 = .256 | 1
+.256 x 2 = .512 | 0
+.512 x 2 = .024 | 1
+.024 x 2 = .048 | 0
+.048 x 2 = .096 | 0
+.096 x 2 = .192 | 0
+.192 x 2 = .384 | 0
+.384 x 2 = .768 | 0 <- stopped here
+.
+.
+.
+.
+00000101
+```
+* `100111010.10100000 * 2^0 `
+* Shift point to left: `1.0011101010100000  * 2^8 `
+* Discard leading 1: `.0011101010100000 * 2^8 `
+* Sign bit: `1`
+* Exponent: `8`
+* Offset the exponent: `E+ 127 = 8 + 127 = 135 = 10000111`
+* Result: `0 10000111 00111010101000000000000`
