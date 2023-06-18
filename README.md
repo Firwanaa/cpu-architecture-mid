@@ -359,3 +359,6 @@ Explicit normalization: radix point to RHS of MSB -> 1.01101 * 2^2
 ![](3.png)
 #### In the previous example what would the OUTPUT BITS be if the INPUT BITS are: 0 0 1 1 0 1 0 1 and the control bit is 0?
 - Answer: `01101010` <- will shift to the left
+
+### 2- Draw a 2-bit Full-Adder using AND, XOR, and OR logic gates
+![](2-bit-full-adder.png)
