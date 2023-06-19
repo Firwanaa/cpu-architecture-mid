@@ -397,3 +397,95 @@ Explicit normalization: radix point to RHS of MSB -> 1.01101 * 2^2
 
 ![](add.jpg)
 ![](sub.jpg)
+
+### 4- Provide the detailed calculation steps using the serial multiplier for `1011x0101`
+`no clue`
+
+### 5- Provide the detailed calculation steps using the serial divider for `111x0011`
+`no clue`
+
+
+### 6- Provide the calculation steps and the result where `X = 1.011*2^-5` and `Y = 1.010*2^-6`
+`note: normalization format: 1.M`
+X + Y
+X - Y
+X · Y
+X / Y
+
+#### X + y
+![](addXY.jpg)
+
+#### X-Y
+![](subXY.jpg)
+
+#### X · Y
+![](mulXY.jpg)
+= `1.101x2^-11`
+
+#### X / Y
+`not sure`
+
+### 7- Carry-look ahead adder:
+![](q7.jpg)
+
+### 8- Assembly language programming.. 
+#### a. Convert the following high level program to ASL in emu8086:
+```C
+int main(){
+byte a,b,c; // make sure the variables are uninitialized...
+a = 3; b = 4;
+if (a > b) c = a;
+	else c = b;
+	return 0; // use ret for this statement...
+}
+```
+
+```asm
+org 100
+
+mov al, a
+mov bl, b
+cmp al, bl
+jp greater
+mov cl, bl
+jmp exit
+
+greater: mov cl, al
+
+
+exit: ret
+
+a db 4
+b db 3
+c db ?
+```
+
+
+#### b. Convert the following high level program to ASL in emu8086:
+
+```C
+int main(){
+byte s,i=0; // make sure the variables are uninitialized...
+
+for (i=0; i<8;i++)
+	s+=I;
+return 0; // use ret for this statement...
+```
+
+```asm
+ORG 100h
+MOV bx, 1
+MOV ax, 1
+
+back:
+ADD bx, 01h
+ADD ax, bx
+CMP bx, 8
+JNE back
+
+MOV s, ax
+
+ret
+
+s dw 0
+```
