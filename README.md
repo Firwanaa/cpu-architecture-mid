@@ -92,6 +92,7 @@ word = 32 bits (4 bytes) <- depends on the Architecture
 116 instructions (not sure if it's 116 or 117)
 
 ### 11-What is a combinational logic?
+Translates a set of inputs (combination of inputs) into a set of outputs according to one or more mapping functions. (eg. adder)
 
 ### 12- List the characteristics of a RISC computer.
 - smaller number of instructions: about 50
@@ -391,3 +392,8 @@ Explicit normalization: radix point to RHS of MSB -> 1.01101 * 2^2
 ### 2- Provide the sign integer subtraction of 78 and 69 in 8-bit binary format
 
 ![](week-5-2.jpg)
+
+### 3- What is the value for the input of (ADD /SUBTRACT) to make a subtractor?
+
+![](add.jpg)
+![](sub.jpg)
