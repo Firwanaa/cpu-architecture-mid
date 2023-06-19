@@ -468,7 +468,7 @@ int main(){
 byte s,i=0; // make sure the variables are uninitialized...
 
 for (i=0; i<8;i++)
-	s+=I;
+	s+=i;
 return 0; // use ret for this statement...
 ```
 
