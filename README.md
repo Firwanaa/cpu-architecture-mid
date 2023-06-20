@@ -362,7 +362,7 @@ Explicit normalization: radix point to RHS of MSB -> 1.01101 * 2^2
 - Answer: `01101010` <- will shift to the left
 
 ### 2- Draw a 2-bit Full-Adder using AND, XOR, and OR logic gates
-![](2-bit-full-adder.png)
+![](2-bit-adder.png)
 
 ### 1-bit full adder
 ![](1-bit-full-adder.png)
