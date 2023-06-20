@@ -63,10 +63,10 @@ In Intel and ARM is called: **Stack Pointer SP**
 |---|---|---|
 ||CISC|RISC|
 |Instruction Set <br><br>(# of instructions)|200-300|Less than CISC About 50|
-|CPI|broken down to a<br><br>number of microinstructions<br><br>Require one or more|fewer cycles 1|
-|Is the Length of instruction is fixed?<br><br>(# of byte / instruction)|16 bit|vary|
+|CPI|broken down to a<br><br>number of microinstructions<br><br>Require one or more|1 cycle|
+|Is the Length of instruction is fixed?<br><br>(# of byte / instruction)|2 bytes|4 bytes|
 |Register set<br><br> (# of registers)|14 registers (emu8086)|32 or more|
-|Memory access instructions<br><br> (# of instruction for memory access)|Load and store<br><br>memory-to-memory|Load and store <br><br>memory -to- register<br><br>register-to-memory|
+|Memory access instructions<br><br> (# of instruction for memory access)|2 Load and store<br><br>memory-to-memory|2 Load and store <br><br>memory -to- register<br><br>register-to-memory|
 |Suitable for parallel processing|Less suitable due to more complex instructions|Yes, by using pipelining|
 |Are Micro Instructions required|Yes (more complex)|No (simpler)|
 
@@ -387,7 +387,7 @@ Explicit normalization: radix point to RHS of MSB -> 1.01101 * 2^2
 
 ![](week5-1.jpg)
 - #### How many carry in happened in the calculation and on which bit the carry in happened
-- Answered above
+- *Edit: 3 carry ins and `3` and carry outs are `2`.*
 
 ### 2- Provide the sign integer subtraction of 78 and 69 in 8-bit binary format
 
