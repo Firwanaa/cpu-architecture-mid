@@ -40,17 +40,17 @@ In intel processor it's called **Instruction Pointer IP**.
 In ARM processor it's called **Program Counter PC**.
 
 ### 3- Provide register names for storing Processor states in Intel/ARM processors?
-In Intel processors knows as Flag Registers:</br>
-	- CF: carry flag</br>
-	- ZF: zero flag</br>
-	- SF: sign flag</br>
-	- OF: overflow flag</br>
+###### In Intel processors knows as Flag Registers:
+- CF: carry flag
+- ZF: zero flag
+- SF: sign flag
+- OF: overflow flag
 
-In ARM known as Program Status Registers **PSR**: </br>
-	- N: Negative</br>
-	- Z: Zero</br>
-	- C: Carry</br>
-	- V: Overflow</br>
+###### In ARM known as Program Status Registers **PSR**: 
+- N: Negative
+- Z: Zero
+- C: Carry
+- V: Overflow
 
 ### 4- Provide register names for storing the top of the Stack in Intel/ARM processors:
 In Intel and ARM is called: **Stack Pointer SP**
