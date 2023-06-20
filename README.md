@@ -140,10 +140,10 @@ unsigned: 1 bit is for the sign (+-), -2^(# of bits) to 2^(# of bits) - 1
 
 ### 14- The data word is stored in memory as below:
 Memory Addr.: value in this memory cell:
-60012 18
-60013 2C
-60014 7F
-60015 39
+- 60012 18
+- 60013 2C
+- 60014 7F
+- 60015 39
 
 
 ### What is the value represented by “Big-Endian” format and what is the value represented by “Little-Endian” format when a CPU reads the word?
