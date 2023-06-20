@@ -170,10 +170,10 @@ Memory Addr.: value in this memory cell:
 
 ### 16- A compiler designer is trying to decide between two code sequences for a particular machine. The hardware designers have supplied the following facts: For a particular high-level language, the compiler writer is considering two sequences that require the following instruction counts: What is the CPI for each sequence? Which code sequence is faster ?
 ![](0.png)
-$CPIa = \dfrac{6\times2 + 7\times 5 + 5\times 6}{6+7+5} =4.2$
+$CPI1 = \dfrac{6\times2 + 7\times 5 + 5\times 6}{6+7+5} =4.2$
 
 
-$CPIb = \dfrac{3\times2 + 8\times 5 + 2\times 6}{6+7+5}=4.4$
+$CPI2 = \dfrac{3\times2 + 8\times 5 + 2\times 6}{6+7+5}=4.4$
 
 CPIa is faster
 
