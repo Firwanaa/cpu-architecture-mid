@@ -311,7 +311,7 @@ Explicit normalization: radix point to RHS of MSB -> 1.01101 * 2^2
 - Shift to left: `1.1001000111 * 2^2 
 - Discard leading 1: `.1001000111* 2^2 
 - Sign bit: `0`
-- Exponent: `E is 1`
+- Exponent: `E is 2`
 - Offset the Exponent: `2 + 127 = 129 = 10000001` 
 - Result: `0 10000001 10010001110000000000000`
 
