@@ -78,10 +78,10 @@ In Intel and ARM is called: **Stack Pointer SP**
 
 
 ### 6- Provide the names of the computer implemented the CISC architecture...
-Intel (intel 8086) and IBM mainframes
+Intel (intel 8086 such as Pentium family) and IBM mainframes
 
 ### 7- Provide the names of the computer implemented the RISC architecture...
-RISC: SPARC (Scalar Processor Architecture) which was evolved form the MIPS (Microprocessor without Interlock Pipeline stages). ARM Architecture devices extensively use RISC.  
+SPARc,ARC, ARM Architecture devices extensively use RISC, MOTOROLA, Power PC
 
 ### 8- How many bits in a byte?
 1 Byte = 8 bits
