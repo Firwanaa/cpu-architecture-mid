@@ -1,3 +1,9 @@
+# ![](helmt.png)
+# 🚧 🏗️
+# ⚠️⚠️⚠️ This repo still In-Progress, Use with high caution ⛔⛔⛔
+# 🚧 🏗️
+
+
 # Week 1
 ### 1- What is the von Neumann Model/architecture?
 
