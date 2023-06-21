@@ -68,13 +68,14 @@ In Intel and ARM is called: **Stack Pointer SP**
 |   |   |   |
 |---|---|---|
 ||CISC|RISC|
-|Instruction Set <br><br>(# of instructions)|200-300|Less than CISC About 50|
-|CPI|broken down to a<br><br>number of microinstructions<br><br>Require one or more|1 cycle|
+|Instruction Set <br><br>(# of instructions)|emu8086 about 130, 250-300|Less than CISC About 50|
+|CPI| > 1 broken down to a<br><br>number of microinstructions<br><br>Require one or more|=1 cycle|
 |Is the Length of instruction is fixed?<br><br>(# of byte / instruction)|2 bytes|4 bytes|
-|Register set<br><br> (# of registers)|14 registers (emu8086)|32 or more|
-|Memory access instructions<br><br> (# of instruction for memory access)|2 Load and store<br><br>memory-to-memory|2 Load and store <br><br>memory -to- register<br><br>register-to-memory|
-|Suitable for parallel processing|Less suitable due to more complex instructions|Yes, by using pipelining|
+|Register set<br><br> (# of registers)|14 registers (emu8086)|34 or more|
+|Memory access instructions<br><br> (# of instruction for memory access)|Any instruction can has one operand from memory<br><br>memory-to-memory|only 2 Load and store <br><br>memory -to- register<br><br>register-to-memory|
+|Suitable for parallel processing|No, Less suitable due to more complex instructions|Yes, by using pipelining|
 |Are Micro Instructions required|Yes (more complex)|No (simpler)|
+|Name of the computer|Pentium 6 family|ARC, Sparc, ARM, Motorola, Power PC|
 
 
 ### 6- Provide the names of the computer implemented the CISC architecture...
