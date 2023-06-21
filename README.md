@@ -459,7 +459,6 @@ jmp exit
 
 greater: mov c, al
 
-
 exit: ret
 
 a db 4
