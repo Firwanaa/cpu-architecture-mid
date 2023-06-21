@@ -72,7 +72,7 @@ In Intel and ARM is called: **Stack Pointer SP**
 |CPI| > 1 |=1 cycle|
 |Is the Length of instruction is fixed?<br><br>(# of byte / instruction)|>= 1 (several)|4 bytes|
 |Register set<br><br> (# of registers)|14 |34 |
-|Memory access instructions<br><br> (# of instruction for memory access)|Any instruction can has one operand from memory<br><br>memory-to-memory|only 2 Load and store |
+|Memory access instructions<br><br> (# of instruction for memory access)|Any instruction can has one operand from memory|only 2 Load and store |
 |Suitable for parallel processing|No |Yes, more suitable|
 |Are Micro Instructions required|Yes (more complex)|No (simpler)|
 |Name of the computer|Pentium 6 family|ARC, Sparc, ARM, Motorola, Power PC|
