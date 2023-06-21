@@ -454,10 +454,10 @@ mov al, a
 mov bl, b
 cmp al, bl
 jp greater
-mov cl, bl
+mov c, bl
 jmp exit
 
-greater: mov cl, al
+greater: mov c, al
 
 
 exit: ret
