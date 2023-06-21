@@ -221,8 +221,8 @@ No overflow, carry, correct
 
 ### Find out if overflow or carry occurs in the following signed number computations using Emu8086:
 ###### Depends if we use 8-bit register (AL) or 16-bit registers (AX)
-###### using 16-bit AX
-- 127 + 3     -> No Carry, No Overflow
+###### using 8-bit AL
+- 127 + 3     -> No Carry, Overflow
 
 - 127 + (-3)  -> Carry, No Overflow
 - 64+5        -> No Carry, No Overflow
